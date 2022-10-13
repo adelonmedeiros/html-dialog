@@ -1,0 +1,42 @@
+p{
+  font-size: 1rem;
+}
+
+textarea {
+  background-color:#f4eeff;
+  color:blueviolet;
+  padding: 2rem;
+  border-radius: .5rem;
+  border: transparent;
+  outline: none;
+  width: 50%;
+  resize: none;
+}
+
+button {
+  background-color: blueviolet;
+  border-radius: .5rem;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 500;
+  padding:  .8rem;
+  text-align: center;
+
+}
+
+button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+dialog::backdrop {
+  background-color: blueviolet;
+}
+
+dialog {
+  border: none;
+  border-radius: .5rem;
+  width: 80%;
+}
